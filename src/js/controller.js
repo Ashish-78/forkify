@@ -1,5 +1,4 @@
 import * as model from './model.js';
-
 import { MODAL_CLOSE_SEC } from './config.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
@@ -10,10 +9,6 @@ import paginationView from './views/paginationView.js';
 import bookmarksView from './views/bookmarkView.js';
 import addRecipeView from './views/addRecipeView.js';
 import { async } from 'regenerator-runtime';
-
-if (module.hot) {
-  module.hot.accept();
-}
 
 const controlRecipe = async function () {
   try {
